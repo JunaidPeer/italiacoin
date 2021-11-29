@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mrpeer/monero/external/miniupnp/miniupnpc/igd_desc_parse.c
+igd_desc_parse.h
+/home/mrpeer/monero/external/miniupnp/miniupnpc/igd_desc_parse.h
+stdio.h
+-
+string.h
+-
+
+/home/mrpeer/monero/external/miniupnp/miniupnpc/igd_desc_parse.h
+
+/home/mrpeer/monero/external/miniupnp/miniupnpc/minixml.c
+string.h
+-
+minixml.h
+/home/mrpeer/monero/external/miniupnp/miniupnpc/minixml.h
+
+/home/mrpeer/monero/external/miniupnp/miniupnpc/minixml.h
+
+/home/mrpeer/monero/external/miniupnp/miniupnpc/testminixml.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+minixml.h
+/home/mrpeer/monero/external/miniupnp/miniupnpc/minixml.h
+igd_desc_parse.h
+/home/mrpeer/monero/external/miniupnp/miniupnpc/igd_desc_parse.h
+

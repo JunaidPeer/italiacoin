@@ -1,0 +1,1101 @@
+The system is: Linux - 5.11.0-40-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_30f78/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_30f78.dir/build.make CMakeFiles/cmTC_30f78.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30f78.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_30f78.dir/testCCompiler.c.o   -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_30f78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30f78.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_30f78.dir/testCCompiler.c.o  -o cmTC_30f78 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1b2b9/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1b2b9.dir/build.make CMakeFiles/cmTC_1b2b9.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc9OLlDb.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o /tmp/cc9OLlDb.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_1b2b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b2b9.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o  -o cmTC_1b2b9 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1b2b9' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cczOhutF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1b2b9 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1b2b9' '-mtune=generic' '-march=x86-64'
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_1b2b9/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1b2b9.dir/build.make CMakeFiles/cmTC_1b2b9.dir/build]
+  ignore line: [make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc9OLlDb.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o /tmp/cc9OLlDb.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_1b2b9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b2b9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o  -o cmTC_1b2b9 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1b2b9' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cczOhutF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1b2b9 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cczOhutF.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1b2b9] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_1b2b9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62bcc/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_62bcc.dir/build.make CMakeFiles/cmTC_62bcc.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62bcc.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_62bcc.dir/testCXXCompiler.cxx.o -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_62bcc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62bcc.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_62bcc.dir/testCXXCompiler.cxx.o  -o cmTC_62bcc 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1d1ed/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1d1ed.dir/build.make CMakeFiles/cmTC_1d1ed.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccIBL8O8.s
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccIBL8O8.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_1d1ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d1ed.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1d1ed 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1d1ed' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cceRNAcC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1d1ed /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1d1ed' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_1d1ed/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1d1ed.dir/build.make CMakeFiles/cmTC_1d1ed.dir/build]
+  ignore line: [make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccIBL8O8.s]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccIBL8O8.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_1d1ed]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d1ed.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1d1ed ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1d1ed' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cceRNAcC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1d1ed /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cceRNAcC.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1d1ed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_1d1ed.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+cc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the -Wl,--no-undefined linker flag is supported passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f866d/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f866d.dir/build.make CMakeFiles/cmTC_f866d.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f866d.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -Wl,--no-undefined    -Wl,--no-undefined -o CMakeFiles/cmTC_f866d.dir/CheckLinkerFlag.c.o   -c /home/mrpeer/monero/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_f866d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f866d.dir/link.txt --verbose=1
+/usr/bin/cc -Wl,--no-undefined   -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_f866d.dir/CheckLinkerFlag.c.o  -o cmTC_f866d 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the -Wl,-undefined,error linker flag is supported passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6f24/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d6f24.dir/build.make CMakeFiles/cmTC_d6f24.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6f24.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -Wl,-undefined,error    -Wl,-undefined,error -o CMakeFiles/cmTC_d6f24.dir/CheckLinkerFlag.c.o   -c /home/mrpeer/monero/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_d6f24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6f24.dir/link.txt --verbose=1
+/usr/bin/cc -Wl,-undefined,error   -Wl,-undefined,error  -rdynamic CMakeFiles/cmTC_d6f24.dir/CheckLinkerFlag.c.o  -o cmTC_d6f24 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bdd8e/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bdd8e.dir/build.make CMakeFiles/cmTC_bdd8e.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdd8e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bdd8e.dir/CheckIncludeFile.c.o   -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bdd8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdd8e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_bdd8e.dir/CheckIncludeFile.c.o  -o cmTC_bdd8e 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test _Werror__pthread_c succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_05c12/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_05c12.dir/build.make CMakeFiles/cmTC_05c12.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05c12.dir/src.c.o
+/usr/bin/cc   -D_Werror__pthread_c   -Werror -pthread -o CMakeFiles/cmTC_05c12.dir/src.c.o   -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_05c12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05c12.dir/link.txt --verbose=1
+/usr/bin/cc  -D_Werror__pthread_c    -rdynamic CMakeFiles/cmTC_05c12.dir/src.c.o  -o cmTC_05c12 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Werror__pthread_cxx succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_767d4/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_767d4.dir/build.make CMakeFiles/cmTC_767d4.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_767d4.dir/src.cxx.o
+/usr/bin/c++    -D_Werror__pthread_cxx   -Werror -pthread -o CMakeFiles/cmTC_767d4.dir/src.cxx.o -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_767d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_767d4.dir/link.txt --verbose=1
+/usr/bin/c++   -D_Werror__pthread_cxx    -rdynamic CMakeFiles/cmTC_767d4.dir/src.cxx.o  -o cmTC_767d4 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the function explicit_bzero exists in the c passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ff44/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0ff44.dir/build.make CMakeFiles/cmTC_0ff44.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ff44.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pthread -DCHECK_FUNCTION_EXISTS=explicit_bzero   -o CMakeFiles/cmTC_0ff44.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0ff44
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ff44.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -DCHECK_FUNCTION_EXISTS=explicit_bzero    -rdynamic CMakeFiles/cmTC_0ff44.dir/CheckFunctionExists.c.o  -o cmTC_0ff44   -L/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/strings.h  -Wl,-rpath,/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/strings.h -lc 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strptime exists passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_43ad1/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_43ad1.dir/build.make CMakeFiles/cmTC_43ad1.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43ad1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pthread -DCHECK_FUNCTION_EXISTS=strptime   -o CMakeFiles/cmTC_43ad1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_43ad1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43ad1.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -DCHECK_FUNCTION_EXISTS=strptime    -rdynamic CMakeFiles/cmTC_43ad1.dir/CheckFunctionExists.c.o  -o cmTC_43ad1 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dd1f4/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dd1f4.dir/build.make CMakeFiles/cmTC_dd1f4.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd1f4.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pthread    -o CMakeFiles/cmTC_dd1f4.dir/CheckSymbolExists.c.o   -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dd1f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd1f4.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread     CMakeFiles/cmTC_dd1f4.dir/CheckSymbolExists.c.o  -o cmTC_dd1f4 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+File /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_acb14/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_acb14.dir/build.make CMakeFiles/cmTC_acb14.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_acb14.dir/src.cxx.o
+/usr/bin/c++    -pthread -D_march=native_cxx   -march=native -o CMakeFiles/cmTC_acb14.dir/src.cxx.o -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_acb14
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acb14.dir/link.txt --verbose=1
+/usr/bin/c++   -pthread -D_march=native_cxx    -rdynamic CMakeFiles/cmTC_acb14.dir/src.cxx.o  -o cmTC_acb14 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5fdd1/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5fdd1.dir/build.make CMakeFiles/cmTC_5fdd1.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fdd1.dir/src.c.o
+/usr/bin/cc   -pthread -D_march=native_c   -march=native -o CMakeFiles/cmTC_5fdd1.dir/src.c.o   -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5fdd1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fdd1.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -D_march=native_c    -rdynamic CMakeFiles/cmTC_5fdd1.dir/src.c.o  -o cmTC_5fdd1 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fd626/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fd626.dir/build.make CMakeFiles/cmTC_fd626.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fd626.dir/src.cxx.o
+/usr/bin/c++    -pthread -march=native -DHAVE_CXX_ATOMICS   -o CMakeFiles/cmTC_fd626.dir/src.cxx.o -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fd626
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd626.dir/link.txt --verbose=1
+/usr/bin/c++   -pthread -march=native -DHAVE_CXX_ATOMICS    -rdynamic CMakeFiles/cmTC_fd626.dir/src.cxx.o  -o cmTC_fd626 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <cstdint>
+#include <atomic>
+int main() {
+  std::atomic<uint64_t> a;
+  a.is_lock_free();
+}
+Determining if the function libusb_get_device_list exists in the /usr/lib/x86_64-linux-gnu/libusb-1.0.so passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bb660/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bb660.dir/build.make CMakeFiles/cmTC_bb660.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb660.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pthread -DCHECK_FUNCTION_EXISTS=libusb_get_device_list   -o CMakeFiles/cmTC_bb660.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bb660
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb660.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -DCHECK_FUNCTION_EXISTS=libusb_get_device_list    -rdynamic CMakeFiles/cmTC_bb660.dir/CheckFunctionExists.c.o  -o cmTC_bb660  /usr/lib/x86_64-linux-gnu/libusb-1.0.so 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function libusb_get_port_numbers exists in the /usr/lib/x86_64-linux-gnu/libusb-1.0.so passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ea042/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ea042.dir/build.make CMakeFiles/cmTC_ea042.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea042.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pthread -DCHECK_FUNCTION_EXISTS=libusb_get_port_numbers   -o CMakeFiles/cmTC_ea042.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ea042
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea042.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -DCHECK_FUNCTION_EXISTS=libusb_get_port_numbers    -rdynamic CMakeFiles/cmTC_ea042.dir/CheckFunctionExists.c.o  -o cmTC_ea042  /usr/lib/x86_64-linux-gnu/libusb-1.0.so 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CC_SUPPORTS_MARCH_NATIVE succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c5f2b/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c5f2b.dir/build.make CMakeFiles/cmTC_c5f2b.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5f2b.dir/src.c.o
+/usr/bin/cc  -I/usr/include/libusb-1.0  -pthread -DCC_SUPPORTS_MARCH_NATIVE   -march=native -o CMakeFiles/cmTC_c5f2b.dir/src.c.o   -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c5f2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5f2b.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -DCC_SUPPORTS_MARCH_NATIVE    -rdynamic CMakeFiles/cmTC_c5f2b.dir/src.c.o  -o cmTC_c5f2b 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _Werror__Wformat_c succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0d7c4/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0d7c4.dir/build.make CMakeFiles/cmTC_0d7c4.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d7c4.dir/src.c.o
+/usr/bin/cc  -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Wformat_c   -Werror -Wformat -o CMakeFiles/cmTC_0d7c4.dir/src.c.o   -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0d7c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d7c4.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Wformat_c    -rdynamic CMakeFiles/cmTC_0d7c4.dir/src.c.o  -o cmTC_0d7c4 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Werror__Wformat_cxx succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a7a3d/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a7a3d.dir/build.make CMakeFiles/cmTC_a7a3d.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7a3d.dir/src.cxx.o
+/usr/bin/c++   -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Wformat_cxx   -Werror -Wformat -o CMakeFiles/cmTC_a7a3d.dir/src.cxx.o -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a7a3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7a3d.dir/link.txt --verbose=1
+/usr/bin/c++   -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Wformat_cxx    -rdynamic CMakeFiles/cmTC_a7a3d.dir/src.cxx.o  -o cmTC_a7a3d 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _Werror__Wformat_security_c succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_16fc2/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_16fc2.dir/build.make CMakeFiles/cmTC_16fc2.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16fc2.dir/src.c.o
+/usr/bin/cc  -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Wformat_security_c   -Werror -Wformat-security -o CMakeFiles/cmTC_16fc2.dir/src.c.o   -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_16fc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16fc2.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Wformat_security_c    -rdynamic CMakeFiles/cmTC_16fc2.dir/src.c.o  -o cmTC_16fc2 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Werror__Wformat_security_cxx succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3fbab/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3fbab.dir/build.make CMakeFiles/cmTC_3fbab.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3fbab.dir/src.cxx.o
+/usr/bin/c++   -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Wformat_security_cxx   -Werror -Wformat-security -o CMakeFiles/cmTC_3fbab.dir/src.cxx.o -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3fbab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fbab.dir/link.txt --verbose=1
+/usr/bin/c++   -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Wformat_security_cxx    -rdynamic CMakeFiles/cmTC_3fbab.dir/src.cxx.o  -o cmTC_3fbab 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _Werror__fstack_protector_c succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_34f2b/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_34f2b.dir/build.make CMakeFiles/cmTC_34f2b.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34f2b.dir/src.c.o
+/usr/bin/cc  -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fstack_protector_c   -Werror -fstack-protector -o CMakeFiles/cmTC_34f2b.dir/src.c.o   -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_34f2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34f2b.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fstack_protector_c    -rdynamic CMakeFiles/cmTC_34f2b.dir/src.c.o  -o cmTC_34f2b 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Werror__fstack_protector_cxx succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0cb52/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0cb52.dir/build.make CMakeFiles/cmTC_0cb52.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0cb52.dir/src.cxx.o
+/usr/bin/c++   -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fstack_protector_cxx   -Werror -fstack-protector -o CMakeFiles/cmTC_0cb52.dir/src.cxx.o -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0cb52
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cb52.dir/link.txt --verbose=1
+/usr/bin/c++   -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fstack_protector_cxx    -rdynamic CMakeFiles/cmTC_0cb52.dir/src.cxx.o  -o cmTC_0cb52 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _Werror__fstack_protector_strong_c succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4f483/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4f483.dir/build.make CMakeFiles/cmTC_4f483.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f483.dir/src.c.o
+/usr/bin/cc  -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fstack_protector_strong_c   -Werror -fstack-protector-strong -o CMakeFiles/cmTC_4f483.dir/src.c.o   -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4f483
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f483.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fstack_protector_strong_c    -rdynamic CMakeFiles/cmTC_4f483.dir/src.c.o  -o cmTC_4f483 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Werror__fstack_protector_strong_cxx succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b07aa/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b07aa.dir/build.make CMakeFiles/cmTC_b07aa.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b07aa.dir/src.cxx.o
+/usr/bin/c++   -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fstack_protector_strong_cxx   -Werror -fstack-protector-strong -o CMakeFiles/cmTC_b07aa.dir/src.cxx.o -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b07aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b07aa.dir/link.txt --verbose=1
+/usr/bin/c++   -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fstack_protector_strong_cxx    -rdynamic CMakeFiles/cmTC_b07aa.dir/src.cxx.o  -o cmTC_b07aa 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _Werror__fcf_protection=full_c succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc753/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cc753.dir/build.make CMakeFiles/cmTC_cc753.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc753.dir/src.c.o
+/usr/bin/cc  -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fcf_protection=full_c   -Werror -fcf-protection=full -o CMakeFiles/cmTC_cc753.dir/src.c.o   -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cc753
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc753.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fcf_protection=full_c    -rdynamic CMakeFiles/cmTC_cc753.dir/src.c.o  -o cmTC_cc753 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Werror__fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c3a69/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c3a69.dir/build.make CMakeFiles/cmTC_c3a69.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c3a69.dir/src.cxx.o
+/usr/bin/c++   -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fcf_protection=full_cxx   -Werror -fcf-protection=full -o CMakeFiles/cmTC_c3a69.dir/src.cxx.o -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c3a69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3a69.dir/link.txt --verbose=1
+/usr/bin/c++   -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fcf_protection=full_cxx    -rdynamic CMakeFiles/cmTC_c3a69.dir/src.cxx.o  -o cmTC_c3a69 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _Werror__fstack_clash_protection_c succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8329/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e8329.dir/build.make CMakeFiles/cmTC_e8329.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8329.dir/src.c.o
+/usr/bin/cc  -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fstack_clash_protection_c   -Werror -fstack-clash-protection -o CMakeFiles/cmTC_e8329.dir/src.c.o   -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e8329
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8329.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fstack_clash_protection_c    -rdynamic CMakeFiles/cmTC_e8329.dir/src.c.o  -o cmTC_e8329 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Werror__fstack_clash_protection_cxx succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab656/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ab656.dir/build.make CMakeFiles/cmTC_ab656.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ab656.dir/src.cxx.o
+/usr/bin/c++   -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fstack_clash_protection_cxx   -Werror -fstack-clash-protection -o CMakeFiles/cmTC_ab656.dir/src.cxx.o -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ab656
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab656.dir/link.txt --verbose=1
+/usr/bin/c++   -pthread -maes -march=native -fno-strict-aliasing -D_Werror__fstack_clash_protection_cxx    -rdynamic CMakeFiles/cmTC_ab656.dir/src.cxx.o  -o cmTC_ab656 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the -pie linker flag is supported passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0c92b/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0c92b.dir/build.make CMakeFiles/cmTC_0c92b.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c92b.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -pie    -pie -o CMakeFiles/cmTC_0c92b.dir/CheckLinkerFlag.c.o   -c /home/mrpeer/monero/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_0c92b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c92b.dir/link.txt --verbose=1
+/usr/bin/cc -pie   -pie  -rdynamic CMakeFiles/cmTC_0c92b.dir/CheckLinkerFlag.c.o  -o cmTC_0c92b 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the -Wl,-z,relro linker flag is supported passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_881e5/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_881e5.dir/build.make CMakeFiles/cmTC_881e5.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_881e5.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -Wl,-z,relro    -Wl,-z,relro -o CMakeFiles/cmTC_881e5.dir/CheckLinkerFlag.c.o   -c /home/mrpeer/monero/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_881e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_881e5.dir/link.txt --verbose=1
+/usr/bin/cc -Wl,-z,relro   -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_881e5.dir/CheckLinkerFlag.c.o  -o cmTC_881e5 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the -Wl,-z,now linker flag is supported passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba13f/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ba13f.dir/build.make CMakeFiles/cmTC_ba13f.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba13f.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -Wl,-z,now    -Wl,-z,now -o CMakeFiles/cmTC_ba13f.dir/CheckLinkerFlag.c.o   -c /home/mrpeer/monero/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_ba13f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba13f.dir/link.txt --verbose=1
+/usr/bin/cc -Wl,-z,now   -Wl,-z,now  -rdynamic CMakeFiles/cmTC_ba13f.dir/CheckLinkerFlag.c.o  -o cmTC_ba13f 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the -Wl,-z,noexecstack linker flag is supported passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1088c/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1088c.dir/build.make CMakeFiles/cmTC_1088c.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1088c.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -Wl,-z,noexecstack    -Wl,-z,noexecstack -o CMakeFiles/cmTC_1088c.dir/CheckLinkerFlag.c.o   -c /home/mrpeer/monero/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_1088c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1088c.dir/link.txt --verbose=1
+/usr/bin/cc -Wl,-z,noexecstack   -Wl,-z,noexecstack  -rdynamic CMakeFiles/cmTC_1088c.dir/CheckLinkerFlag.c.o  -o cmTC_1088c 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test _Werror__Werror=switch_c succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_30871/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_30871.dir/build.make CMakeFiles/cmTC_30871.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30871.dir/src.c.o
+/usr/bin/cc  -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Werror=switch_c   -Werror -Werror=switch -o CMakeFiles/cmTC_30871.dir/src.c.o   -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_30871
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30871.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Werror=switch_c    -rdynamic CMakeFiles/cmTC_30871.dir/src.c.o  -o cmTC_30871 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Werror__Werror=switch_cxx succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_126d2/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_126d2.dir/build.make CMakeFiles/cmTC_126d2.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_126d2.dir/src.cxx.o
+/usr/bin/c++   -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Werror=switch_cxx   -Werror -Werror=switch -o CMakeFiles/cmTC_126d2.dir/src.cxx.o -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_126d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_126d2.dir/link.txt --verbose=1
+/usr/bin/c++   -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Werror=switch_cxx    -rdynamic CMakeFiles/cmTC_126d2.dir/src.cxx.o  -o cmTC_126d2 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _Werror__Werror=return_type_c succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0f1b7/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0f1b7.dir/build.make CMakeFiles/cmTC_0f1b7.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f1b7.dir/src.c.o
+/usr/bin/cc  -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Werror=return_type_c   -Werror -Werror=return-type -o CMakeFiles/cmTC_0f1b7.dir/src.c.o   -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0f1b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f1b7.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Werror=return_type_c    -rdynamic CMakeFiles/cmTC_0f1b7.dir/src.c.o  -o cmTC_0f1b7 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Werror__Werror=return_type_cxx succeeded with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c3d57/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c3d57.dir/build.make CMakeFiles/cmTC_c3d57.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c3d57.dir/src.cxx.o
+/usr/bin/c++   -I/usr/include/libusb-1.0  -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Werror=return_type_cxx   -Werror -Werror=return-type -o CMakeFiles/cmTC_c3d57.dir/src.cxx.o -c /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c3d57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3d57.dir/link.txt --verbose=1
+/usr/bin/c++   -pthread -maes -march=native -fno-strict-aliasing -D_Werror__Werror=return_type_cxx    -rdynamic CMakeFiles/cmTC_c3d57.dir/src.cxx.o  -o cmTC_c3d57 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the function rl_copy_text exists passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5025f/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5025f.dir/build.make CMakeFiles/cmTC_5025f.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5025f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pthread -maes -march=native -fno-strict-aliasing -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=cpp -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -fPIC  -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fcf-protection=full -fstack-clash-protection -Werror=switch -Werror=return-type -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=rl_copy_text   -o CMakeFiles/cmTC_5025f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5025f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5025f.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -maes -march=native -fno-strict-aliasing -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=cpp -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -fPIC  -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fcf-protection=full -fstack-clash-protection -Werror=switch -Werror=return-type -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=rl_copy_text    -rdynamic CMakeFiles/cmTC_5025f.dir/CheckFunctionExists.c.o  -o cmTC_5025f  /usr/lib/x86_64-linux-gnu/libreadline.so 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function rl_filename_completion_function exists passed with the following output:
+Change Dir: /home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d23c2/fast && make[1]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d23c2.dir/build.make CMakeFiles/cmTC_d23c2.dir/build
+make[2]: Entering directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d23c2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pthread -maes -march=native -fno-strict-aliasing -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=cpp -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -fPIC  -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fcf-protection=full -fstack-clash-protection -Werror=switch -Werror=return-type -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=rl_filename_completion_function   -o CMakeFiles/cmTC_d23c2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d23c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d23c2.dir/link.txt --verbose=1
+/usr/bin/cc  -pthread -maes -march=native -fno-strict-aliasing -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=cpp -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -fPIC  -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fcf-protection=full -fstack-clash-protection -Werror=switch -Werror=return-type -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=rl_filename_completion_function    -rdynamic CMakeFiles/cmTC_d23c2.dir/CheckFunctionExists.c.o  -o cmTC_d23c2  /usr/lib/x86_64-linux-gnu/libreadline.so 
+make[2]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/CMakeTmp'
+
+
+
+Looking for a ASM-ATT compiler passed with the following output:
+-- The ASM-ATT compiler identification is GNU
+-- Found assembler: /usr/bin/as
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mrpeer/monero/build/Linux/master/release/src/crypto/wallet/CMakeFiles/CheckASM-ATT
+

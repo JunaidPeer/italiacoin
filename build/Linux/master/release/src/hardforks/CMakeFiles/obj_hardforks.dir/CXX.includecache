@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mrpeer/monero/src/hardforks/hardforks.cpp
+hardforks.h
+/home/mrpeer/monero/src/hardforks/hardforks.h
+
+/home/mrpeer/monero/src/hardforks/hardforks.h
+stdint.h
+-
+time.h
+-
+

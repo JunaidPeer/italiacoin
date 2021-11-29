@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mrpeer/monero/external/miniupnp/miniupnpc/minixml.c
+string.h
+-
+minixml.h
+/home/mrpeer/monero/external/miniupnp/miniupnpc/minixml.h
+
+/home/mrpeer/monero/external/miniupnp/miniupnpc/minixml.h
+
+/home/mrpeer/monero/external/miniupnp/miniupnpc/testupnpreplyparse.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+upnpreplyparse.h
+/home/mrpeer/monero/external/miniupnp/miniupnpc/upnpreplyparse.h
+
+/home/mrpeer/monero/external/miniupnp/miniupnpc/upnpreplyparse.c
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+upnpreplyparse.h
+/home/mrpeer/monero/external/miniupnp/miniupnpc/upnpreplyparse.h
+minixml.h
+/home/mrpeer/monero/external/miniupnp/miniupnpc/minixml.h
+
+/home/mrpeer/monero/external/miniupnp/miniupnpc/upnpreplyparse.h
+

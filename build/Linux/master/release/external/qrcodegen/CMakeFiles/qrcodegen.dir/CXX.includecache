@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mrpeer/monero/external/qrcodegen/QrCode.cpp
+algorithm
+-
+climits
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+sstream
+-
+stdexcept
+-
+utility
+-
+QrCode.hpp
+/home/mrpeer/monero/external/qrcodegen/QrCode.hpp
+
+/home/mrpeer/monero/external/qrcodegen/QrCode.hpp
+array
+-
+cstdint
+-
+stdexcept
+-
+string
+-
+vector
+-
+

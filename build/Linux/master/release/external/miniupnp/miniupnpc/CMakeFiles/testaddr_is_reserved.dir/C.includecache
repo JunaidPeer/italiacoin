@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mrpeer/monero/external/miniupnp/miniupnpc/addr_is_reserved.c
+winsock2.h
+-
+ws2tcpip.h
+-
+stdint.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+
+/home/mrpeer/monero/external/miniupnp/miniupnpc/addr_is_reserved.h
+
+/home/mrpeer/monero/external/miniupnp/miniupnpc/testaddr_is_reserved.c
+stdio.h
+-
+addr_is_reserved.h
+/home/mrpeer/monero/external/miniupnp/miniupnpc/addr_is_reserved.h
+

@@ -1,0 +1,13 @@
+# Target labels
+ googletest
+# Source files and their labels
+/home/mrpeer/monero/build/Linux/master/release/tests/CMakeFiles/googletest
+/home/mrpeer/monero/build/Linux/master/release/tests/CMakeFiles/googletest.rule
+/home/mrpeer/monero/build/Linux/master/release/tests/CMakeFiles/googletest-complete.rule
+/home/mrpeer/monero/build/Linux/master/release/tests/googletest-prefix/src/googletest-stamp/googletest-install.rule
+/home/mrpeer/monero/build/Linux/master/release/tests/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+/home/mrpeer/monero/build/Linux/master/release/tests/googletest-prefix/src/googletest-stamp/googletest-download.rule
+/home/mrpeer/monero/build/Linux/master/release/tests/googletest-prefix/src/googletest-stamp/googletest-update.rule
+/home/mrpeer/monero/build/Linux/master/release/tests/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+/home/mrpeer/monero/build/Linux/master/release/tests/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+/home/mrpeer/monero/build/Linux/master/release/tests/googletest-prefix/src/googletest-stamp/googletest-build.rule

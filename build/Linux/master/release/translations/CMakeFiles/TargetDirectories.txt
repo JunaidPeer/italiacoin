@@ -1,0 +1,3 @@
+/home/mrpeer/monero/build/Linux/master/release/translations/CMakeFiles/rebuild_cache.dir
+/home/mrpeer/monero/build/Linux/master/release/translations/CMakeFiles/edit_cache.dir
+/home/mrpeer/monero/build/Linux/master/release/translations/CMakeFiles/generate_translations_header.dir

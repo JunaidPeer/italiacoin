@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../../contrib/epee/include/span.h
+algorithm
+-
+cstdint
+-
+memory
+-
+type_traits
+-
+
+../../../../src/cryptonote_config.h
+stdexcept
+-
+string
+-
+boost/uuid/uuid.hpp
+-
+
+/home/mrpeer/monero/src/blocks/blocks.cpp
+blocks.h
+/home/mrpeer/monero/src/blocks/blocks.h
+unordered_map
+-
+
+/home/mrpeer/monero/src/blocks/blocks.h
+cryptonote_config.h
+/home/mrpeer/monero/src/blocks/cryptonote_config.h
+span.h
+/home/mrpeer/monero/src/blocks/span.h
+

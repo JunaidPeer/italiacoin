@@ -1,0 +1,1 @@
+/usr/bin/ccache /usr/bin/cc  -pthread -DNDEBUG -Ofast   CMakeFiles/upnpc-shared.dir/upnpc.c.o  -o upnpc-shared  -Wl,-rpath,/home/mrpeer/monero/build/Linux/master/release/external/miniupnp/miniupnpc libminiupnpc.so.2.2.1 

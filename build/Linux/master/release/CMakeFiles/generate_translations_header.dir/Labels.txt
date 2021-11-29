@@ -1,0 +1,13 @@
+# Target labels
+ generate_translations_header
+# Source files and their labels
+/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/generate_translations_header
+/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/generate_translations_header.rule
+/home/mrpeer/monero/build/Linux/master/release/CMakeFiles/generate_translations_header-complete.rule
+/home/mrpeer/monero/build/Linux/master/release/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-install.rule
+/home/mrpeer/monero/build/Linux/master/release/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-mkdir.rule
+/home/mrpeer/monero/build/Linux/master/release/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-download.rule
+/home/mrpeer/monero/build/Linux/master/release/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-update.rule
+/home/mrpeer/monero/build/Linux/master/release/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-patch.rule
+/home/mrpeer/monero/build/Linux/master/release/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-configure.rule
+/home/mrpeer/monero/build/Linux/master/release/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-build.rule

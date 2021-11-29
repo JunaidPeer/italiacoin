@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mrpeer/monero/build/Linux/master/release/tests/CMakeFiles/googletest"
+		},
+		{
+			"file" : "/home/mrpeer/monero/build/Linux/master/release/tests/CMakeFiles/googletest.rule"
+		},
+		{
+			"file" : "/home/mrpeer/monero/build/Linux/master/release/tests/CMakeFiles/googletest-complete.rule"
+		},
+		{
+			"file" : "/home/mrpeer/monero/build/Linux/master/release/tests/googletest-prefix/src/googletest-stamp/googletest-install.rule"
+		},
+		{
+			"file" : "/home/mrpeer/monero/build/Linux/master/release/tests/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule"
+		},
+		{
+			"file" : "/home/mrpeer/monero/build/Linux/master/release/tests/googletest-prefix/src/googletest-stamp/googletest-download.rule"
+		},
+		{
+			"file" : "/home/mrpeer/monero/build/Linux/master/release/tests/googletest-prefix/src/googletest-stamp/googletest-update.rule"
+		},
+		{
+			"file" : "/home/mrpeer/monero/build/Linux/master/release/tests/googletest-prefix/src/googletest-stamp/googletest-patch.rule"
+		},
+		{
+			"file" : "/home/mrpeer/monero/build/Linux/master/release/tests/googletest-prefix/src/googletest-stamp/googletest-configure.rule"
+		},
+		{
+			"file" : "/home/mrpeer/monero/build/Linux/master/release/tests/googletest-prefix/src/googletest-stamp/googletest-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}
